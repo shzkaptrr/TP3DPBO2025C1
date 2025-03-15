@@ -10,28 +10,35 @@ Terdiri dari 8 kelas, di mana kelasKomponen adalah parent dari class Cpu, Ram, d
 Class Komponen terdiri dari atribut-atribut berikut:
 1. merk
 2. nama
+   
 Class Cpu terdiri dari atribut-atribut berikut:
 1. jumlahCore
 2. kecepatanGHz
+   
 Class Ram terdiri dari atribut-atribut berikut:
 1. kapasitasGB
 2. ddr
+   
 Class Harddrive terdiri dari atribut-atribut berikut:
 1. kapasitasGB
 2. tipeDrive
+   
 Class Peripheral terdiri dari atribut-atribut berikut:
 1. tipe
 2. tipeKoneksi
 3. fitur
+   
 Class Komputer terdiri dari atribut-atribut berikut:
 1. nama
 2. cpu
 3. ramlist
 4. harddrive
 5. peripheralList
+   
 Class HardwareKomponen terdiri dari atribut-atribut berikut:
 1. model
 2. konsumsiDayaWatt
+   
 Class StorageKomponen terdiri dari atribut-atribut berikut:
 1. kecepatanBaca
 2. kecepatanTulis
