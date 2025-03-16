@@ -4,6 +4,9 @@
 Saya Shizuka Maulia Putri NIM 2308744 mengerjakan Tugas Praktikum 3 dalam mata kuliah DPBO untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
 # Desain
+
+![image](https://github.com/user-attachments/assets/4a010967-049d-4e9f-a03c-efa0549a4f40)
+
 Terdiri dari 8 kelas, di mana kelasKomponen adalah parent dari class Cpu, Ram, dan Harddrive,  karena ketiga komponen ini merupakan bagian inti dari sebuah komputer dan memiliki atribut dasar yang sama, seperti merek dan nama. Harddrive, selain mewarisi dari Komponen, juga memiliki parent lain yaitu HardwareKomponen, yang menunjukkan bahwa harddrive adalah bagian dari perangkat keras yang memiliki karakteristik tambahan seperti model dan konsumsi daya. Kelas Komputer memiliki hubungan composite dengan Cpu, Ram, Harddrive, dan Peripheral, yang berarti setiap objek Komputer memiliki beberapa komponen tersebut. Kelas StorageKomponen merupakan kelas yang mewarisi dari Ram dan Harddrive, karena mencerminkan kombinasi antara penyimpanan dan memori, misalnya untuk menyimpan informasi kecepatan baca/tulis sekaligus detail kapasitas RAM dan harddisk. 
 
 
